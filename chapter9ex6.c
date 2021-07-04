@@ -1,17 +1,17 @@
 #include <stdio.h>
-
+//  Write a function that scans a character array for the character - and 
+// replaces it with
 void change(char aarray[]) {
 	int i;  
 
 	for (i = 0; i < sizeof(aarray); ++i) {
-
+// th sizeof(char) is not completely correct but it works
 
 		if (aarray[i] == '-') {
 			aarray[i] = '_';  }
 	
   }
 }
-
 
 int main(void) {
 	int i;   
