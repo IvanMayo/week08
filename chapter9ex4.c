@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+// Write a function that takes a character array and returns a primitive 
+// hash code by adding up the value of each character in the array.
 
 char characters[100];
 
