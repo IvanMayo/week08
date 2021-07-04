@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-
+//Write a function count(number, array, length) that counts the 
+//number of times number appears in array. The array has length elements. The 
+//function should be recursive. Write a test program to go with the function
 int count(int num, int *array, int lenght);
 
 
 int main()
 {
 
-
+// this is the array from it will search for the biggest value
 	int array[10] = {5, 4, 4, 3, 4, 1, 3, 2, 7, 8};
 	char number[10];
   int numb;
