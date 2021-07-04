@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
+// Write a function begins(string1,string2) that returns true if 
+//string1 begins string2. Write a program to test the function
+
 void compare(char string1 [10], char string2 [10])
 {
 if (strcmp(string1,string2) == 0 ){
@@ -17,7 +20,7 @@ else {
 
 
 
-
+//the program will compare the strings you introduce
 int main()
 {
 char string1 [10];
