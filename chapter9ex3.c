@@ -9,7 +9,7 @@ int count(int num, int *array, int lenght);
 int main()
 {
 
-// this is the array from it will search for the biggest value
+// this is the array from it will search the repeated times of a number
 	int array[10] = {5, 4, 4, 3, 4, 1, 3, 2, 7, 8};
 	char number[10];
   int numb;
